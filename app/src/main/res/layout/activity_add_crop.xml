@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="18dp"
+    tools:context=".AddCrop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/custom_border">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:id="@+id/iHelloAddCrop"
+        android:text="List Your New Crop"
+        android:textStyle="bold"
+        android:fontFamily="@font/vast_shadow"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/custom_border"
+        />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            >
+
+
+            <EditText
+                android:id="@+id/iCropName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Crop-Name"
+                android:inputType="text"
+                android:fontFamily="@font/vast_shadow"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+
+            <EditText
+                android:id="@+id/iCropQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Quantity in kgs"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/vast_shadow"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+
+            <EditText
+                android:id="@+id/iCropPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:hint=" Min. Ask Price Per KG"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/vast_shadow"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/iAddCropSubmit"
+            android:background="@drawable/button_template"
+            android:text="Submit for sale"
+            android:textColor="#fff"
+            android:layout_marginTop="30sp"/>
+
+</LinearLayout>
+
+
+</ScrollView>

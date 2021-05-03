@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgricultureInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/i3logo"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_border"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/vast_shadow"
+            android:layout_gravity="center"
+            android:text="Agricultural Updates"
+            android:layout_marginBottom="35dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/iGovtSchemes"
+            android:background="#F7C63680"
+            android:textColor="#fff"
+            android:fontFamily="@font/vast_shadow"
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="center"
+            android:text=" Click for Govt. Schemes "
+            android:textSize="20sp"/>
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/iMspWheat"
+    android:background="@drawable/custom_border"
+    android:textColor="#FBC02D"
+    android:fontFamily="@font/vast_shadow"
+      android:layout_marginBottom="15dp"
+      android:layout_gravity="center"
+    android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iMspRice"
+        android:background="@drawable/custom_border"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="@font/vast_shadow"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iMspPulse"
+        android:background="@drawable/custom_border"
+        android:textColor="#F10A1C"
+        android:fontFamily="@font/vast_shadow"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iMspSugarcane"
+        android:background="@drawable/custom_border"
+        android:textColor="#80E30E"
+        android:fontFamily="@font/vast_shadow"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/iGovtMsp"
+            android:background="#F7C63680"
+            android:textColor="#fff"
+            android:fontFamily="@font/vast_shadow"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text=" Click me to see Govt. MSPs "
+            android:textSize="20sp"/>
+      </LinearLayout>
+
+</ScrollView>

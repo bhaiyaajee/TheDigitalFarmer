@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainCoordinatedLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fff"
+    android:padding="18dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="28dp"
+        android:background="#fff">
+
+
+
+    <ImageView
+        android:id="@+id/iLogo"
+        android:layout_width="191dp"
+        android:layout_height="198dp"
+        android:src="@drawable/i3logo" />
+
+    <TextView
+        android:id="@+id/iWelcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello !  "
+        android:textSize="45sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="8dp"
+
+        />
+
+    <TextView
+        android:id="@+id/iSuggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in to  Continue "
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+
+            <EditText
+                android:id="@+id/iEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Email"
+                android:inputType="textEmailAddress"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/iPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Password"
+                android:inputType="textPassword"
+                 />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/iForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:padding="4dp"
+            android:text="Forgot Password ?"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="textEnd"
+            android:textSize="11sp"
+            android:fontFamily="@font/vast_shadow"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/iSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_template"
+            android:text="Sign In"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+
+        <Button
+            android:id="@+id/iSignInWithPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_template"
+            android:text="Sign in with Mobile"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/iSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="New User ? Create an Account "
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/custom_border"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

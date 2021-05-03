@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_buyer_border"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:id="@+id/iCName"
+        android:textStyle="bold"
+        android:fontFamily="@font/vast_shadow"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="10sp"
+        android:id="@+id/iCQty"
+        android:fontFamily="@font/vast_shadow"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="10sp"
+        android:id="@+id/iSellingPrice"
+        android:fontFamily="@font/vast_shadow"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:id="@+id/iFarmerName"
+        android:fontFamily="@font/vast_shadow"
+        android:textColor="#F10B0B"/>
+
+
+</LinearLayout>

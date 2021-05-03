@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical"
+    tools:context=".BuyerBidding">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:id="@+id/iHelloAddCrop"
+        android:text="Place Your Bid Offer"
+        android:textStyle="bold"
+        android:fontFamily="@font/vast_shadow"
+        android:textColor="@color/colorBuyer"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/custom_buyer_border"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bidding_logo"
+        android:layout_marginTop="10dp"
+        android:id="@+id/iBiddingLogo"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10sp"
+        android:padding="12dp"
+        android:background="@drawable/custom_buyer_border">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/iCName"
+            android:textStyle="bold"
+            android:elevation="10dp"
+            android:fontFamily="@font/vast_shadow"
+            android:textColor="@color/colorBuyer"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:id="@+id/iCQty"
+            android:fontFamily="@font/vast_shadow"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/iCPrice"
+            android:fontFamily="@font/vast_shadow"
+            android:textColor="@color/colorAccent"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp">
+
+
+            <EditText
+                android:id="@+id/iNewCropPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:hint=" Your Price Per Kilogram"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/vast_shadow"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/iPlaceBid"
+            android:background="@drawable/button_buyer_template"
+            android:text="Place Your  Bid "
+            android:textColor="#fff"
+            android:layout_marginTop="30sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
