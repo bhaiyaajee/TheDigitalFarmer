@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.i3AdvancedTech.i3connect">
+   
 
     <application
         android:allowBackup="true"
